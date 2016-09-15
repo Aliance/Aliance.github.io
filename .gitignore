@@ -1,0 +1,5 @@
+.idea/
+.DS_Store
+cgi-bin
+yandex_*.html
+google_*.html
