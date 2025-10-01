@@ -16,6 +16,13 @@ html, body {
 #wrap > .container {
     padding: 60px 15px 0;
 }
+.fork img {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border: 0;
+    width: 130px;
+}
 footer {
     height: 40px;
     background-color: #f5f5f5;
