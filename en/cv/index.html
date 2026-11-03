@@ -2,282 +2,219 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Ilia Lesnykh Online CV">
+    <title>Ilia Lesnykh — Head of Backend, online CV</title>
+    <meta name="description" content="Online CV and contacts of Ilia Lesnykh: backend developer since 2008, PHP, Symfony, Go, high-load. Head of Backend at Waxbill Technologies.">
     <meta name="author" content="Ilia Lesnykh">
-    <link rel="shortcut icon" href="../../favicon.ico">
-    <title>Online CV — web developer Ilia Lesnykh</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link href="../../styles.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <meta name="theme-color" content="#f5f6fa">
+    <link rel="canonical" href="https://lesnykh.ru/en/cv/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-<a href="https://github.com/Aliance/Aliance.github.io" class="fork hide-on-print">
-    <img src="../../strip-fork-me-on-github.png" alt="Fork me on GitHub">
-</a>
+<div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
 
-<div id="wrap">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand visible-xs" href="http://lesnykh.ru/">Ilia Lesnykh</a>
-                <a class="navbar-brand hidden-xs" href="http://lesnykh.ru/">Web developer Ilia Lesnykh</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right hide-on-print">
-                    <li><a href="/">Contacts</a></li>
-                    <li class="active"><a href="/en/cv">Online CV</a></li>
+<svg aria-hidden="true" style="display:none">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m2 7 10 7 10-7"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.7a2 2 0 0 1 1.9 2z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5a5.2 5.2 0 0 0-1.5-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.3 1.7 5.2 2 5.2 2a4.8 4.8 0 0 0-.1 3.5A5.2 5.2 0 0 0 3.6 9c0 3.5 3 5.5 6 5.5a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-4.5 2-5-2-7-2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></symbol>
+</svg>
+
+<div class="wrap">
+
+    <header class="nav">
+        <a class="brand" href="/en/cv/"><span class="tilde">~</span>/lesnykh.ru</a>
+        <nav class="nav-links" aria-label="Sections">
+            <a href="#experience">./experience</a>
+            <a href="#skills">./skills</a>
+            <a href="#education">./education</a>
+            <a href="#contacts">./contacts</a>
+        </nav>
+        <div class="nav-tools">
+            <div class="lang" aria-label="Language"><a href="/" hreflang="ru" lang="ru">ru</a><span class="on">en</span></div>
+            <a class="pdf-link" href="/resume-en.pdf" download><svg class="icon"><use href="#i-download"/></svg>resume.pdf</a>
+        </div>
+    </header>
+
+    <div class="layout">
+
+        <aside class="side">
+            <section class="card profile">
+                <div class="avatar-wrap">
+                    <span class="halo" aria-hidden="true"></span>
+                    <span class="ring"><img src="/assets/avatar.jpg" alt="Ilia Lesnykh" width="640" height="640"></span>
+                    <span class="float f1" aria-hidden="true">18+ years</span>
+                    <span class="float f2" aria-hidden="true">symfony 7.4</span>
+                    <span class="float f3" aria-hidden="true">php 8.4 · go</span>
+                </div>
+                <div class="who">
+                    <h1>Ilia Lesnykh</h1>
+                    <p class="role">head of backend<br>waxbill technologies · belgrade</p>
+                </div>
+                <p class="status">on staff since november 2025</p>
+                <div class="contacts" id="contacts">
+                    <a class="ct" href="mailto:lesnykh.ilja@gmail.com"><span class="ic"><svg class="icon"><use href="#i-mail"/></svg></span><span><small>email</small><b>lesnykh.ilja@gmail.com</b></span></a>
+                    <a class="ct" href="https://t.me/iLesnykh"><span class="ic"><svg class="icon"><use href="#i-send"/></svg></span><span><small>telegram</small><b>@iLesnykh</b></span></a>
+                    <a class="ct" href="https://wa.me/79219766006"><span class="ic"><svg class="icon"><use href="#i-phone"/></svg></span><span><small>whatsapp</small><b>+7 921 976 6006</b></span></a>
+                    <a class="ct" href="https://github.com/Aliance"><span class="ic"><svg class="icon"><use href="#i-github"/></svg></span><span><small>github</small><b>github.com/Aliance</b></span></a>
+                </div>
+                <div class="actions">
+                    <a class="btn" href="/resume-en.pdf" download><svg class="icon"><use href="#i-download"/></svg>PDF</a>
+                    <a class="btn-light" href="/ilia-lesnykh.vcf" download><svg class="icon"><use href="#i-user"/></svg>vCard</a>
+                </div>
+            </section>
+
+            <section class="skills" id="skills" aria-labelledby="skills-title">
+                <h2 class="cmd" id="skills-title">./skills</h2>
+                <div class="glass"><span class="label">lang · fw</span><ul class="chips"><li class="chip v">php 8.4</li><li class="chip v">symfony 7.4</li><li class="chip v">go</li><li class="chip">javascript</li><li class="chip">sql</li></ul></div>
+                <div class="glass"><span class="label">data</span><ul class="chips"><li class="chip c">postgresql</li><li class="chip c">mysql</li><li class="chip c">redis</li><li class="chip">elasticsearch</li><li class="chip">sphinx</li><li class="chip">zookeeper</li></ul></div>
+                <div class="glass"><span class="label">infra</span><ul class="chips"><li class="chip p">docker</li><li class="chip">teamcity</li><li class="chip">capistrano</li><li class="chip">grafana</li><li class="chip">kibana</li><li class="chip">git</li></ul></div>
+                <div class="glass"><span class="label">team</span><ul class="chips"><li class="chip">leadership</li><li class="chip">scrum</li><li class="chip">a/b tests</li><li class="chip">interviewing</li></ul></div>
+            </section>
+
+            <section class="card edu-card" id="education" aria-labelledby="edu-title">
+                <h2 class="cmd" id="edu-title">./education</h2>
+                <ul class="edu-list">
+                    <li class="edu"><b>ITMO University · master's</b><span class="label">2010 — 2012 · it &amp; programming faculty</span></li>
+                    <li class="edu"><b>ITMO University · bachelor's</b><span class="label">2006 — 2010 · it &amp; programming faculty</span></li>
+                    <li class="edu"><b>oDesk tests</b><span class="label">html5 · javascript · php · jquery</span></li>
                 </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="page-header hide-on-print">
-            <h1 class="visible-xs">CV <small>(<a href="/ru/cv">рус</a>)</small></h1>
-            <h1 class="hidden-xs">Ilia Lesnykh' CV <small>(<a href="/ru/cv">русская версия</a>)</small></h1>
-        </div>
-        <ol class="breadcrumb hide-on-print">
-            <li><a href="/">Home</a></li>
-            <li class="active">Online CV</li>
-        </ol>
+            </section>
+        </aside>
 
-        <h1>Experience</h1>
+        <main class="main">
+            <section class="about">
+                <p class="cmd">whoami</p>
+                <h2 class="statement">Backend developer since 2008. <span class="accent">Now leading backend at Waxbill.</span></h2>
+                <p class="lead">PHP and Go, Symfony, PostgreSQL and Redis. Went through high-load social networks and an ad network, now building an ERP for an investment holding. I lead the team and still write code.</p>
+            </section>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="https://waxbilltechnologies.com/"><strong>Waxbill Technologies</strong></a>
-                    <small>November 2025 at the moment <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Head of backend development</strong>.</p>
-                <p>Internal ERP system for investment firm DST Global.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Symfony 7.4</span>.</li>
-                <li class="list-group-item">Tech Stack: PHP 8.4, Sphinx, Redis, Elastic Search, Kibana, Grafana, Docker.</li>
-                <li class="list-group-item">Used at work: internal tasktracker, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">OS X</span>, DBMS <span class="label label-primary">MySQL</span>, version control systems <span class="label label-info">Git</span>.</li>
+            <ul class="stats">
+                <li class="card stat"><b>18+</b><span>years in backend development</span><span class="label">since 2008</span></li>
+                <li class="card stat"><b>9 years</b><span>at PropellerAds on the SSP platform</span><span class="label">2016 — 2025</span></li>
+                <li class="card stat hot"><b class="sm">Head of Backend</b><span>at Waxbill Technologies, leading teams since 2009</span><span class="label">since 2025 · teams since 2009</span></li>
             </ul>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="https://propellerads.com/"><strong>PropellerAds</strong></a>
-                    <small>August 2016 - October 2025 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Principal web developer</strong>. Advertising network.</p>
-                <p>Work on SSP (Self-service platform).</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Worked on Agile Scrum methodology.</li>
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Symfony 6.4</span>.</li>
-                <li class="list-group-item">Tech Stack: GO, PHP 8.3, Redis, Kibana, Grafana, Docker, TeamCity, Capistrano.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Youtrack</span> and <span class="label label-warning">JIRA</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">OS X</span>, DBMS <span class="label label-primary">PostgreSQL</span>, version control systems <span class="label label-info">Git</span>.</li>
-            </ul>
-        </div>
+            <section class="xp" id="experience" aria-labelledby="xp-title">
+                <div class="section-head">
+                    <div>
+                        <p class="cmd">./experience --all</p>
+                        <h2 id="xp-title">Experience</h2>
+                    </div>
+                    <span class="label">2008 — now · 9 entries</span>
+                </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://team.topface.ru/?lang=EN"><strong>Topface</strong></a>
-                    <small>April 2014 - August 2016 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Principal web developer</strong>. Social network with dating.</p>
-                <p>Work on a large highload project. Work in Monetization department. Creating A/B tests. Work on referral partner program. Creating cohort analysis.</p>
-                <p>Successful participation in the HackDay: creating a scalable application for social network (may 2015; PHP 5.5, Docker)</p>
-                <p>Successful participation in the HackDay: creating a scalable application for social network (november 2015; PHP 5.5, NodeJS, Docker)</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Tech Stack: PHP 7, Redis, ZooKeeper, ElasticSearch, Kibana, Grafana, Docker, TeamCity.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Redmine</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Ubuntu</span>, DBMS <span class="label label-primary">MySQL</span> and <span class="label label-primary">PostgreSQL</span>, version control system <span class="label label-info">Git</span>.</li>
-            </ul>
-        </div>
+                <article class="entry now">
+                    <time class="when" datetime="2025-11">nov 2025 —<br>present</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>Waxbill Technologies <span>Head of backend development</span></h3>
+                        <p>Internal ERP system for the investment firm DST Global. Architecture, team, code.</p>
+                        <ul class="chips"><li class="chip v">php 8.4</li><li class="chip v">symfony 7.4</li><li class="chip c">mysql</li><li class="chip">sphinx</li><li class="chip">redis</li><li class="chip">elasticsearch</li><li class="chip p">docker</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://tolkotolk.ru"><strong>TolkoTolk</strong></a>
-                    <small>January 2014 &ndash; April 2014 <span class="label label-default">remote job</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Web developer</strong>. Company engaged in the development of advertising management in VKontakte.</p>
-                <p>Advertisement creation UI development.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Zend Framework 1.9</span>.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Redmine</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Windows</span>, DBMS <span class="label label-primary">MySQL</span>.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2016-08">aug 2016 —<br>oct 2025</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>PropellerAds <span>Principal web developer</span></h3>
+                        <p>Advertising network. Nine years on the SSP (self-service platform): from a PHP monolith to Go services. Scrum.</p>
+                        <ul class="chips"><li class="chip v">go</li><li class="chip v">php 8.3</li><li class="chip">symfony 6.4</li><li class="chip c">postgresql</li><li class="chip">redis</li><li class="chip p">docker</li><li class="chip">teamcity</li><li class="chip">capistrano</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://fotostrana.ru"><strong>FotoStrana</strong></a>
-                    <small>October 2012 &ndash; October 2013 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Principal web developer</strong>. Social network with dating and games.</p>
-                <p>Work on a large highload project. Work in Core and Advertising departments. Development albums engine, "Boards and Pins" engine, advertising <abbr title="application programming interface" class="initialism">API</abbr>.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Zend Framework 1.*</span>.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Redmine</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Ubuntu Linux</span>, DBMS <span class="label label-primary">MySQL</span>, version control system <span class="label label-info">Subversion (SVN)</span>.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2014-04">apr 2014 —<br>aug 2016</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>Topface <span>Principal web developer</span></h3>
+                        <p>High-load social network. Monetization: A/B experiments, referral partner program, cohort analysis. Two internal hackathons.</p>
+                        <ul class="chips"><li class="chip">php 7</li><li class="chip">redis</li><li class="chip">zookeeper</li><li class="chip">elasticsearch</li><li class="chip c">mysql</li><li class="chip c">postgresql</li><li class="chip p">docker</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <strong>Наш район</strong>
-                    <small>November 2010 &ndash; March 2012</small>
-                    <strong>Webcom</strong>
-                    <small>March 2012 &ndash; October 2012 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Web developer</strong>. Company engaged in SMS billing.</p>
-                <p>The creation of numerous small sites, providing content after sending SMS. Also work on a single large project, aggregating statistics from all other small sites.</p>
-                <p><strong>Principal web developer</strong>.</p>
-                <p>Promoted to principal web developer. In subordination was 2 people.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Worked on Agile Scrum methodology.</li>
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Zend Framework 1.*</span> and <span class="label label-success">Kohana 3.0</span>.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Redmine</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Ubuntu Linux</span>, DBMS <span class="label label-primary">MySQL</span>, version control systems <span class="label label-info">Subversion (SVN)</span> and <span class="label label-info">Git</span>.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2014-01">jan — apr<br>2014</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>TolkoTolk <span>Web developer, remote</span></h3>
+                        <p>Ad management for VKontakte, ad creation UI.</p>
+                        <ul class="chips"><li class="chip">zend framework 1.9</li><li class="chip c">mysql</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://webdoka.ru"><strong>WebDoka</strong></a>
-                    <small>January 2010 &ndash; September 2010 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Web developer</strong>. Web studio engaged in the creation and support of sites.</p>
-                <p>Web site development. Support for customer sites. Writing the new features. Drafting TOR.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Zend Framework 1.*</span>.</li>
-                <li class="list-group-item">Used <abbr title="Content Management System" class="initialism">CMS</abbr>: <span class="label label-success">UMI.CMS</span> and <span class="label label-success">1C Bitrix</span>.</li>
-                <li class="list-group-item">Used at work: bugtracker <span class="label label-warning">Redmine</span>, <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Windows</span> and <span class="label label-danger">Ubuntu Linux</span>, DBMS <span class="label label-primary">MySQL</span>, version control system <span class="label label-info">Subversion (SVN)</span>.</li>
-                <li class="list-group-item">Attending a conference ZFConf 2010.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2012-10">oct 2012 —<br>oct 2013</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>FotoStrana <span>Principal web developer</span></h3>
+                        <p>High-load social network. Core and advertising: photo albums engine, “boards and pins”, advertising API.</p>
+                        <ul class="chips"><li class="chip">zend framework 1</li><li class="chip c">mysql</li><li class="chip">svn</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://becost.ru"><strong>BeCost</strong></a>
-                    <small>December 2008 &ndash; January 2010 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Senior web developer</strong>. The company sells auto parts.</p>
-                <p>Duties: development of web-shop and internal portal. <abbr title="search engine optimization" class="initialism">SEO</abbr>. Interviewing. Preparation of internal documents. Developing the logistics system (wrote a dissertation based on it in 2010). Developing internal bugtracker system called HelpDesk. In subordination was 4 people.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used PHP frameworks: <span class="label label-success">Zend Framework 1.*</span>.</li>
-                <li class="list-group-item">Used at work: <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Windows</span> and <span class="label label-danger">Gentoo Linux</span>, DBMS <span class="label label-primary">MySQL</span>, version control system <span class="label label-info">Subversion (SVN)</span>.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2010-11">nov 2010 —<br>oct 2012</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>Nash Rayon → Webcom <span>Web developer → principal</span></h3>
+                        <p>SMS billing: content sites and a statistics aggregator. Promoted to principal, team of 2. Scrum.</p>
+                        <ul class="chips"><li class="chip">zend framework 1</li><li class="chip">kohana 3</li><li class="chip c">mysql</li><li class="chip">git</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://solvo.ru"><strong>SOLVO</strong></a>
-                    <small>April 2008 &ndash; August 2008 <span class="label label-default">full time</span></small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p><strong>Junior programmer of W2A system</strong>. The company develops warehouse management systems.</p>
-                <p>Duties: developing warehouse system interfaces with <abbr title="eXtensible Markup Language" class="initialism">XML</abbr> notation. Creating views for DB.</p>
-            </div>
-            <ul class="list-group">
-                <li class="list-group-item">Used at work: <abbr title="Operating system" class="initialism">OS</abbr> <span class="label label-danger">Red Hat Enterprise Linux</span>, DBMS <span class="label label-primary">Oracle</span>, version control system <span class="label label-info">CVS</span>.</li>
-            </ul>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2010-01">jan — sep<br>2010</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>WebDoka <span>Web developer</span></h3>
+                        <p>Web studio: sites from scratch, client support, specs. ZFConf 2010.</p>
+                        <ul class="chips"><li class="chip">zend framework 1</li><li class="chip">umi.cms</li><li class="chip">1c-bitrix</li></ul>
+                    </div>
+                </article>
 
-        <h1>Education</h1>
+                <article class="entry">
+                    <time class="when" datetime="2008-12">dec 2008 —<br>jan 2010</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>BeCost <span>Senior web developer</span></h3>
+                        <p>Auto parts e-commerce, logistics system (basis of the bachelor's thesis), HelpDesk, interviewing. Team of 4.</p>
+                        <ul class="chips"><li class="chip">zend framework 1</li><li class="chip c">mysql</li><li class="chip">gentoo</li><li class="chip">seo</li></ul>
+                    </div>
+                </article>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://www.ifmo.ru"><strong>NRU ITMO</strong></a>
-                    <small>2010 &ndash; 2012</small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p>Saint&ndash;Petersburg National Research University of Information Technologies, Mechanics & Optics, Faculty of Informational Technologies and Programming (magistracy).</p>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://www.ifmo.ru"><strong>NRU ITMO</strong></a>
-                    <small>2006 &ndash; 2010</small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p>Saint&ndash;Petersburg National Research University of Information Technologies, Mechanics & Optics, Faculty of Informational Technologies and Programming (baccalaureate).</p>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="http://457spb.ru/"><strong>School №457</strong></a>
-                    <small>1996 &ndash; 2006</small>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p>School of raised level №457, with an economy, information science and English bias.</p>
-            </div>
-        </div>
-
-        <h1>Electronic certificates</h1>
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a href="https://www.odesk.com/o/profiles/users/_~010332bfadc18652eb/"><strong>oDesk</strong></a>
-                </h4>
-            </div>
-            <div class="panel-body">
-                <p>The successful termination of rates: HTML5, Javascript, PHP Coding, jQuery.</p>
-            </div>
-        </div>
+                <article class="entry">
+                    <time class="when" datetime="2008-04">apr — aug<br>2008</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>SOLVO <span>Junior programmer, W2A system</span></h3>
+                        <p>Warehouse management systems: XML interfaces, Oracle views.</p>
+                        <ul class="chips"><li class="chip c">oracle</li><li class="chip">rhel</li><li class="chip">cvs</li></ul>
+                    </div>
+                </article>
+            </section>
+        </main>
 
     </div>
+
+    <footer class="footer">
+        <span class="label">2005 — <span id="year">2026</span> © Ilia Lesnykh</span>
+        <span class="label tech">static · github pages · no bootstrap, no jquery</span>
+        <span class="label site">lesnykh.ru/en/cv/</span>
+    </footer>
+
 </div>
 
-<footer>
-    <div class="container text-center hide-on-print">2005 &mdash; 2026 &copy; Lesnykh Ilia</div>
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-s1ITto93iSMDxlp/79qhWHi+LsIi9Gx6yL+cOKDuymvihkfol83TYbLbOw+W/wv4" crossorigin="anonymous"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter1959736 = new Ya.Metrika({id:1959736, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/1959736" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
