@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Lesnykh;Ilia;;;
+FN:Ilia Lesnykh
+ORG:Waxbill Technologies
+TITLE:Head of Backend Development
+EMAIL;TYPE=INTERNET:lesnykh.ilja@gmail.com
+TEL;TYPE=CELL:+79219766006
+URL:https://lesnykh.ru/
+X-SOCIALPROFILE;TYPE=telegram:https://t.me/iLesnykh
+X-SOCIALPROFILE;TYPE=github:https://github.com/Aliance
+ADR;TYPE=HOME:;;;Belgrade;;;Serbia
+END:VCARD
