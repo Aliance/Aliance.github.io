@@ -17,6 +17,9 @@
 | `assets/og-ru.png`, `assets/og-en.png` | превью ссылки в мессенджерах |
 | `resume-ru.pdf`, `resume-en.pdf` | печатные версии |
 
+Иконки `favicon.ico`, `favicon.svg` и `apple-touch-icon.png` сделаны из `assets/avatar.jpg`
+(круглая обрезка) и генератором не трогаются.
+
 Внешний вид живёт в `templates/page.html` (разметка, синтаксис как у Twig: `{{ }}`, `{% for %}`,
 `{% if %}`), `styles.css` (экран и печать) и `templates/og.html` (превью-картинка).
 
