@@ -1,0 +1,39 @@
+# Ilia Lesnykh
+
+> Head of Backend Development at Waxbill Technologies. Backend developer since 2008. PHP and Go, Symfony, PostgreSQL and Redis. Went through high-load social networks and an ad network, now building an ERP for an investment holding. I lead the team and still write code. Belgrade, Serbia.
+
+## Pages
+- [CV in English](http://lesnykh.ru/en/cv/)
+- [Резюме на русском](http://lesnykh.ru/)
+- [Resume PDF, English](http://lesnykh.ru/resume-en.pdf)
+- [Резюме PDF, русский](http://lesnykh.ru/resume-ru.pdf)
+- [JSON Resume, English](http://lesnykh.ru/resume.json)
+- [JSON Resume, Russian](http://lesnykh.ru/resume.ru.json)
+
+## Contacts
+- Email: lesnykh.ilja@gmail.com
+- Telegram: https://t.me/iLesnykh
+- WhatsApp: https://wa.me/79219766006
+- GitHub: https://github.com/Aliance
+
+## Experience (18+ years)
+- 2025-11 — present: Waxbill Technologies, Head of backend development. Internal ERP system for the investment firm DST Global. Architecture, team, code. Stack: php 8.4, symfony 7.4, mysql, sphinx, redis, elasticsearch, docker.
+- 2016-08 — 2025-10: PropellerAds, Principal web developer. Advertising network. Nine years on the SSP (self-service platform): from a PHP monolith to Go services. Scrum. Stack: go, php 8.3, symfony 6.4, postgresql, redis, docker, teamcity, capistrano.
+- 2014-04 — 2016-08: Topface, Principal web developer. High-load social network. Monetization: A/B experiments, referral partner program, cohort analysis. Two internal hackathons. Stack: php 7, redis, zookeeper, elasticsearch, mysql, postgresql, docker.
+- 2014-01 — 2014-04: TolkoTolk, Web developer, remote. Ad management for VKontakte, ad creation UI. Stack: zend framework 1.9, mysql.
+- 2012-10 — 2013-10: FotoStrana, Principal web developer. High-load social network. Core and advertising: photo albums engine, “boards and pins”, advertising API. Stack: zend framework 1, mysql, svn.
+- 2010-11 — 2012-10: Nash Rayon → Webcom, Web developer → principal. SMS billing: content sites and a statistics aggregator. Promoted to principal, team of 2. Scrum. Stack: zend framework 1, kohana 3, mysql, git.
+- 2010-01 — 2010-09: WebDoka, Web developer. Web studio: sites from scratch, client support, specs. ZFConf 2010. Stack: zend framework 1, umi.cms, 1c-bitrix.
+- 2008-12 — 2010-01: BeCost, Senior web developer. Auto parts e-commerce, logistics system (basis of the bachelor's thesis), HelpDesk, interviewing. Team of 4. Stack: zend framework 1, mysql, gentoo, seo.
+- 2008-04 — 2008-08: SOLVO, Junior programmer, W2A system. Warehouse management systems: XML interfaces, Oracle views. Stack: oracle, rhel, cvs.
+
+## Education
+- 2010 — 2012: ITMO University, master's, it & programming faculty
+- 2006 — 2010: ITMO University, bachelor's, it & programming faculty
+- oDesk tests: html5 · javascript · php · jquery
+
+## Skills
+- lang · fw: php 8.4, symfony 7.4, go, javascript, sql
+- data: postgresql, mysql, redis, elasticsearch, sphinx, zookeeper
+- infra: docker, teamcity, capistrano, grafana, kibana, git
+- team: leadership, scrum, a/b tests, interviewing

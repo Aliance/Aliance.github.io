@@ -6,8 +6,9 @@ ORG:Waxbill Technologies
 TITLE:Head of Backend Development
 EMAIL;TYPE=INTERNET:lesnykh.ilja@gmail.com
 TEL;TYPE=CELL:+79219766006
+ADR;TYPE=HOME:;;;Belgrade;;;Serbia
 URL:http://lesnykh.ru/
 X-SOCIALPROFILE;TYPE=telegram:https://t.me/iLesnykh
 X-SOCIALPROFILE;TYPE=github:https://github.com/Aliance
-ADR;TYPE=HOME:;;;Belgrade;;;Serbia
+REV:2026-11-04
 END:VCARD

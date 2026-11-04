@@ -1,0 +1,180 @@
+{
+  "site": {
+    "url": "http://lesnykh.ru",
+    "since": 2005,
+    "metrika": 1959736,
+    "avatar": "assets/avatar.jpg",
+    "vcard": "ilia-lesnykh.vcf",
+    "pages": {
+      "ru": {"path": "/",       "file": "index.html",       "pdf": "resume-ru.pdf", "resume_json": "resume.ru.json", "og": "assets/og-ru.png"},
+      "en": {"path": "/en/cv/", "file": "en/cv/index.html", "pdf": "resume-en.pdf", "resume_json": "resume.json",    "og": "assets/og-en.png"}
+    },
+    "title": {
+      "ru": "Илья Лесных — Head of Backend, онлайн-резюме",
+      "en": "Ilia Lesnykh — Head of Backend, online CV"
+    },
+    "description": {
+      "ru": "Онлайн-резюме и контакты Ильи Лесных: backend-разработчик с 2008 года, PHP, Symfony, Go, highload. Head of Backend в Waxbill Technologies.",
+      "en": "Online CV and contacts of Ilia Lesnykh: backend developer since 2008, PHP, Symfony, Go, high-load. Head of Backend at Waxbill Technologies."
+    },
+    "tones": {
+      "php 8.4": "v", "php 8.3": "v", "symfony 7.4": "v", "go": "v",
+      "postgresql": "c", "mysql": "c", "redis": "c", "oracle": "c",
+      "docker": "p"
+    }
+  },
+
+  "basics": {
+    "first_name": {"ru": "Илья", "en": "Ilia"},
+    "last_name": {"ru": "Лесных", "en": "Lesnykh"},
+    "label": "Head of Backend Development",
+    "role": "head of backend",
+    "email": "lesnykh.ilja@gmail.com",
+    "phone": "+7 921 976 6006",
+    "phone_e164": "+79219766006",
+    "city": {"ru": "Белград", "en": "Belgrade"},
+    "country": {"ru": "Сербия", "en": "Serbia"},
+    "country_code": "RS",
+    "profiles": [
+      {"network": "Telegram", "username": "@iLesnykh", "url": "https://t.me/iLesnykh", "icon": "send", "same_as": true},
+      {"network": "WhatsApp", "username": "+7 921 976 6006", "url": "https://wa.me/79219766006", "icon": "phone", "same_as": false},
+      {"network": "GitHub", "username": "github.com/Aliance", "url": "https://github.com/Aliance", "icon": "github", "same_as": true}
+    ],
+    "statement": {"ru": "Backend-разработчик с 2008 года.", "en": "Backend developer since 2008."},
+    "statement_accent": {"ru": "Сейчас руковожу backend в Waxbill.", "en": "Now leading backend at Waxbill."},
+    "summary": {
+      "ru": "PHP и Go, Symfony, PostgreSQL и Redis. Прошёл highload-соцсети и рекламную сеть, теперь строю ERP для инвестиционного холдинга. Руковожу командой и пишу код сам.",
+      "en": "PHP and Go, Symfony, PostgreSQL and Redis. Went through high-load social networks and an ad network, now building an ERP for an investment holding. I lead the team and still write code."
+    },
+    "floats": [{"ru": "{years}+ лет", "en": "{years}+ years"}, "symfony 7.4", "php 8.4 · go"]
+  },
+
+  "stats": [
+    {"big": "{years}+", "text": {"ru": "лет в backend-разработке", "en": "years in backend development"}, "label": "since 2008"},
+    {"big": {"ru": "9 лет", "en": "9 years"}, "text": {"ru": "в PropellerAds над SSP-платформой", "en": "at PropellerAds on the SSP platform"}, "label": "2016 — 2025"},
+    {"big": "Head of Backend", "small": true, "hot": true, "text": {"ru": "в Waxbill Technologies, руковожу командами с 2009", "en": "at Waxbill Technologies, leading teams since 2009"}, "label": "since 2025 · teams since 2009"}
+  ],
+
+  "work": [
+    {
+      "company": "Waxbill Technologies", "url": "https://waxbilltechnologies.com/",
+      "start": "2025-11", "end": null,
+      "position": {"ru": "Руководитель backend-разработки", "en": "Head of backend development"},
+      "summary": {"ru": "ERP-система для инвестиционного холдинга DST Global. Архитектура, команда, код.", "en": "Internal ERP system for the investment firm DST Global. Architecture, team, code."},
+      "stack": ["php 8.4", "symfony 7.4", "mysql", "sphinx", "redis", "elasticsearch", "docker"]
+    },
+    {
+      "company": "PropellerAds", "url": "https://propellerads.com/",
+      "start": "2016-08", "end": "2025-10",
+      "position": {"ru": "Ведущий веб-разработчик", "en": "Principal web developer"},
+      "summary": {"ru": "Рекламная сеть. Девять лет над SSP-платформой: от PHP-монолита до сервисов на Go. Scrum.", "en": "Advertising network. Nine years on the SSP (self-service platform): from a PHP monolith to Go services. Scrum."},
+      "stack": ["go", "php 8.3", "symfony 6.4", "postgresql", "redis", "docker", "teamcity", "capistrano"]
+    },
+    {
+      "company": "Topface", "url": "http://team.topface.ru/",
+      "start": "2014-04", "end": "2016-08",
+      "position": {"ru": "Ведущий веб-разработчик", "en": "Principal web developer"},
+      "summary": {"ru": "Highload-соцсеть. Монетизация: A/B-эксперименты, реферальная программа, когортный анализ. Два внутренних хакатона.", "en": "High-load social network. Monetization: A/B experiments, referral partner program, cohort analysis. Two internal hackathons."},
+      "stack": ["php 7", "redis", "zookeeper", "elasticsearch", "mysql", "postgresql", "docker"]
+    },
+    {
+      "company": {"ru": "ТолькоТолк", "en": "TolkoTolk"}, "url": "http://tolkotolk.ru/",
+      "start": "2014-01", "end": "2014-04",
+      "position": {"ru": "Веб-разработчик, удалённо", "en": "Web developer, remote"},
+      "summary": {"ru": "Управление рекламой во ВКонтакте, интерфейс создания объявлений.", "en": "Ad management for VKontakte, ad creation UI."},
+      "stack": ["zend framework 1.9", "mysql"]
+    },
+    {
+      "company": {"ru": "ФотоСтрана", "en": "FotoStrana"}, "url": "http://fotostrana.ru/",
+      "start": "2012-10", "end": "2013-10",
+      "position": {"ru": "Ведущий веб-разработчик", "en": "Principal web developer"},
+      "summary": {"ru": "Highload-соцсеть. Ядро и реклама: фотоальбомы, «борды и пины», рекламное API.", "en": "High-load social network. Core and advertising: photo albums engine, “boards and pins”, advertising API."},
+      "stack": ["zend framework 1", "mysql", "svn"]
+    },
+    {
+      "company": {"ru": "Наш район → Вэбком", "en": "Nash Rayon → Webcom"}, "url": null,
+      "start": "2010-11", "end": "2012-10",
+      "position": {"ru": "Веб-разработчик → ведущий", "en": "Web developer → principal"},
+      "summary": {"ru": "SMS-биллинг: контент-сайты и агрегатор статистики. Повышен до ведущего, 2 человека в команде. Scrum.", "en": "SMS billing: content sites and a statistics aggregator. Promoted to principal, team of 2. Scrum."},
+      "stack": ["zend framework 1", "kohana 3", "mysql", "git"]
+    },
+    {
+      "company": "WebDoka", "url": "http://webdoka.ru/",
+      "start": "2010-01", "end": "2010-09",
+      "position": {"ru": "Веб-разработчик", "en": "Web developer"},
+      "summary": {"ru": "Веб-студия: сайты с нуля, поддержка клиентов, ТЗ. ZFConf 2010.", "en": "Web studio: sites from scratch, client support, specs. ZFConf 2010."},
+      "stack": ["zend framework 1", "umi.cms", "1c-bitrix"]
+    },
+    {
+      "company": "BeCost", "url": "http://becost.ru/",
+      "start": "2008-12", "end": "2010-01",
+      "position": {"ru": "Старший веб-разработчик", "en": "Senior web developer"},
+      "summary": {"ru": "Интернет-магазин автозапчастей, логистическая система (основа диплома), HelpDesk, собеседования. 4 человека в команде.", "en": "Auto parts e-commerce, logistics system (basis of the bachelor's thesis), HelpDesk, interviewing. Team of 4."},
+      "stack": ["zend framework 1", "mysql", "gentoo", "seo"]
+    },
+    {
+      "company": {"ru": "СОЛВО", "en": "SOLVO"}, "url": "http://solvo.ru/",
+      "start": "2008-04", "end": "2008-08",
+      "position": {"ru": "Junior-программист W2A", "en": "Junior programmer, W2A system"},
+      "summary": {"ru": "Складские системы: XML-интерфейсы, представления для Oracle.", "en": "Warehouse management systems: XML interfaces, Oracle views."},
+      "stack": ["oracle", "rhel", "cvs"]
+    }
+  ],
+
+  "skills": [
+    {"label": "lang · fw", "items": ["php 8.4", "symfony 7.4", "go", "javascript", "sql"]},
+    {"label": "data",      "items": ["postgresql", "mysql", "redis", "elasticsearch", "sphinx", "zookeeper"]},
+    {"label": "infra",     "items": ["docker", "teamcity", "capistrano", "grafana", "kibana", "git"]},
+    {"label": "team",      "items": {"ru": ["руководство", "scrum", "a/b-тесты", "собеседования"], "en": ["leadership", "scrum", "a/b tests", "interviewing"]}}
+  ],
+
+  "education": [
+    {
+      "institution": {"ru": "НИУ ИТМО", "en": "ITMO University"}, "url": "https://itmo.ru/",
+      "studyType": {"ru": "магистратура", "en": "master's"},
+      "area": {"ru": "факультет итип", "en": "it & programming faculty"},
+      "start": "2010", "end": "2012"
+    },
+    {
+      "institution": {"ru": "НИУ ИТМО", "en": "ITMO University"}, "url": "https://itmo.ru/",
+      "studyType": {"ru": "бакалавриат", "en": "bachelor's"},
+      "area": {"ru": "факультет итип", "en": "it & programming faculty"},
+      "start": "2006", "end": "2010"
+    }
+  ],
+
+  "certificates": [
+    {"name": "oDesk tests", "issuer": "oDesk", "label": "html5 · javascript · php · jquery", "url": "https://www.odesk.com/o/profiles/users/_~010332bfadc18652eb/"}
+  ],
+
+  "ui": {
+    "ru": {
+      "locale": "ru_RU",
+      "sections": "Разделы",
+      "language": "Язык",
+      "experience": "Опыт",
+      "status": "в штате с",
+      "now": "сейчас",
+      "entries": "entries",
+      "stack": "Стек",
+      "months": ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"],
+      "months_gen": ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
+      "tech": "static · github pages · no bootstrap, no jquery",
+      "moved": "Резюме теперь живёт на главной:"
+    },
+    "en": {
+      "locale": "en_US",
+      "sections": "Sections",
+      "language": "Language",
+      "experience": "Experience",
+      "status": "on staff since",
+      "now": "present",
+      "entries": "entries",
+      "stack": "Stack",
+      "months": ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
+      "months_gen": ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
+      "tech": "static · github pages · no bootstrap, no jquery",
+      "moved": "The CV now lives on the front page:"
+    }
+  }
+}

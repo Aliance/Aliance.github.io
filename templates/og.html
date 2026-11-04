@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<title>og</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+    body { position: relative; background: #f5f6fa; font-family: Inter, system-ui, sans-serif; color: #0f1222; -webkit-font-smoothing: antialiased; }
+    .blob { position: absolute; border-radius: 50%; filter: blur(70px); }
+    .b1 { left: -160px; top: -200px; width: 620px; height: 620px; background: radial-gradient(circle, #c7d2fe 0%, rgba(199, 210, 254, 0) 65%); }
+    .b2 { right: -140px; top: -80px; width: 560px; height: 560px; background: radial-gradient(circle, #a5f3fc 0%, rgba(165, 243, 252, 0) 65%); }
+    .b3 { left: 420px; bottom: -340px; width: 640px; height: 640px; background: radial-gradient(circle, #fbcfe8 0%, rgba(251, 207, 232, 0) 65%); opacity: .7; }
+    .card { position: absolute; inset: 56px; background: #fff; border: 1px solid #e5e7ef; border-radius: 40px; box-shadow: 0 30px 80px -40px rgba(16, 24, 40, .35); display: flex; align-items: center; gap: 64px; padding: 0 80px; }
+    .avatar { position: relative; width: 280px; height: 280px; flex: none; }
+    .halo { position: absolute; inset: -30px; border-radius: 50%; background: conic-gradient(from 200deg, #818cf8, #22d3ee, #f472b6, #818cf8); filter: blur(36px); opacity: .55; }
+    .ring { position: relative; width: 100%; height: 100%; padding: 7px; border-radius: 50%; background: conic-gradient(from 200deg, #818cf8, #22d3ee, #f472b6, #818cf8); box-shadow: 0 0 0 10px #fff, 0 40px 90px -24px rgba(99, 102, 241, .65); }
+    .ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 5px solid #fff; display: block; }
+    .text { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+    .cmd { font-family: "JetBrains Mono", monospace; font-size: 22px; color: #3b4160; }
+    .cmd::before { content: "$ "; color: #4f46e5; }
+    h1 { margin: 0; font-size: 76px; font-weight: 800; letter-spacing: -.045em; line-height: 1; }
+    .role { font-family: "JetBrains Mono", monospace; font-size: 24px; color: #3b4160; line-height: 1.5; }
+    .statement { font-size: 30px; font-weight: 700; letter-spacing: -.03em; line-height: 1.2; }
+    .statement span { color: #6366f1; }
+    .url { position: absolute; right: 80px; bottom: 40px; font-family: "JetBrains Mono", monospace; font-size: 20px; color: #6b7190; }
+</style>
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="card">
+    <div class="avatar"><div class="halo"></div><div class="ring"><img src="{{ avatar_abs }}" alt=""></div></div>
+    <div class="text">
+        <div class="cmd">whoami</div>
+        <h1>{{ name }}</h1>
+        <div class="role">{{ role }}<br>{{ company_lc }} · {{ city_lc }}</div>
+        <div class="statement">{{ statement }} <span>{{ statement_accent }}</span></div>
+    </div>
+    <div class="url">{{ site_label }}</div>
+</div>
+</body>
+</html>
