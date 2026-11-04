@@ -1,0 +1,205 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ilia Lesnykh",
+    "label": "Head of Backend Development",
+    "image": "http://lesnykh.ru/assets/avatar.jpg",
+    "email": "lesnykh.ilja@gmail.com",
+    "phone": "+7 921 976 6006",
+    "url": "http://lesnykh.ru/en/cv/",
+    "summary": "Backend developer since 2008. Now leading backend at Waxbill. PHP and Go, Symfony, PostgreSQL and Redis. Went through high-load social networks and an ad network, now building an ERP for an investment holding. I lead the team and still write code.",
+    "location": {
+      "city": "Belgrade",
+      "countryCode": "RS"
+    },
+    "profiles": [
+      {
+        "network": "Telegram",
+        "username": "@iLesnykh",
+        "url": "https://t.me/iLesnykh"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "+7 921 976 6006",
+        "url": "https://wa.me/79219766006"
+      },
+      {
+        "network": "GitHub",
+        "username": "github.com/Aliance",
+        "url": "https://github.com/Aliance"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Waxbill Technologies",
+      "url": "https://waxbilltechnologies.com/",
+      "position": "Head of backend development",
+      "startDate": "2025-11",
+      "summary": "Internal ERP system for the investment firm DST Global. Architecture, team, code.",
+      "highlights": [
+        "Stack: php 8.4, symfony 7.4, mysql, sphinx, redis, elasticsearch, docker"
+      ]
+    },
+    {
+      "name": "PropellerAds",
+      "url": "https://propellerads.com/",
+      "position": "Principal web developer",
+      "startDate": "2016-08",
+      "endDate": "2025-10",
+      "summary": "Advertising network. Nine years on the SSP (self-service platform): from a PHP monolith to Go services. Scrum.",
+      "highlights": [
+        "Stack: go, php 8.3, symfony 6.4, postgresql, redis, docker, teamcity, capistrano"
+      ]
+    },
+    {
+      "name": "Topface",
+      "url": "http://team.topface.ru/",
+      "position": "Principal web developer",
+      "startDate": "2014-04",
+      "endDate": "2016-08",
+      "summary": "High-load social network. Monetization: A/B experiments, referral partner program, cohort analysis. Two internal hackathons.",
+      "highlights": [
+        "Stack: php 7, redis, zookeeper, elasticsearch, mysql, postgresql, docker"
+      ]
+    },
+    {
+      "name": "TolkoTolk",
+      "url": "http://tolkotolk.ru/",
+      "position": "Web developer, remote",
+      "startDate": "2014-01",
+      "endDate": "2014-04",
+      "summary": "Ad management for VKontakte, ad creation UI.",
+      "highlights": [
+        "Stack: zend framework 1.9, mysql"
+      ]
+    },
+    {
+      "name": "FotoStrana",
+      "url": "http://fotostrana.ru/",
+      "position": "Principal web developer",
+      "startDate": "2012-10",
+      "endDate": "2013-10",
+      "summary": "High-load social network. Core and advertising: photo albums engine, “boards and pins”, advertising API.",
+      "highlights": [
+        "Stack: zend framework 1, mysql, svn"
+      ]
+    },
+    {
+      "name": "Nash Rayon → Webcom",
+      "position": "Web developer → principal",
+      "startDate": "2010-11",
+      "endDate": "2012-10",
+      "summary": "SMS billing: content sites and a statistics aggregator. Promoted to principal, team of 2. Scrum.",
+      "highlights": [
+        "Stack: zend framework 1, kohana 3, mysql, git"
+      ]
+    },
+    {
+      "name": "WebDoka",
+      "url": "http://webdoka.ru/",
+      "position": "Web developer",
+      "startDate": "2010-01",
+      "endDate": "2010-09",
+      "summary": "Web studio: sites from scratch, client support, specs. ZFConf 2010.",
+      "highlights": [
+        "Stack: zend framework 1, umi.cms, 1c-bitrix"
+      ]
+    },
+    {
+      "name": "BeCost",
+      "url": "http://becost.ru/",
+      "position": "Senior web developer",
+      "startDate": "2008-12",
+      "endDate": "2010-01",
+      "summary": "Auto parts e-commerce, logistics system (basis of the bachelor's thesis), HelpDesk, interviewing. Team of 4.",
+      "highlights": [
+        "Stack: zend framework 1, mysql, gentoo, seo"
+      ]
+    },
+    {
+      "name": "SOLVO",
+      "url": "http://solvo.ru/",
+      "position": "Junior programmer, W2A system",
+      "startDate": "2008-04",
+      "endDate": "2008-08",
+      "summary": "Warehouse management systems: XML interfaces, Oracle views.",
+      "highlights": [
+        "Stack: oracle, rhel, cvs"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ITMO University",
+      "url": "https://itmo.ru/",
+      "area": "it & programming faculty",
+      "studyType": "master's",
+      "startDate": "2010",
+      "endDate": "2012"
+    },
+    {
+      "institution": "ITMO University",
+      "url": "https://itmo.ru/",
+      "area": "it & programming faculty",
+      "studyType": "bachelor's",
+      "startDate": "2006",
+      "endDate": "2010"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "oDesk tests",
+      "issuer": "oDesk",
+      "url": "https://www.odesk.com/o/profiles/users/_~010332bfadc18652eb/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "lang · fw",
+      "keywords": [
+        "php 8.4",
+        "symfony 7.4",
+        "go",
+        "javascript",
+        "sql"
+      ]
+    },
+    {
+      "name": "data",
+      "keywords": [
+        "postgresql",
+        "mysql",
+        "redis",
+        "elasticsearch",
+        "sphinx",
+        "zookeeper"
+      ]
+    },
+    {
+      "name": "infra",
+      "keywords": [
+        "docker",
+        "teamcity",
+        "capistrano",
+        "grafana",
+        "kibana",
+        "git"
+      ]
+    },
+    {
+      "name": "team",
+      "keywords": [
+        "leadership",
+        "scrum",
+        "a/b tests",
+        "interviewing"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "http://lesnykh.ru/resume.json",
+    "lastModified": "2026-11-04",
+    "language": "en"
+  }
+}

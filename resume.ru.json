@@ -1,0 +1,205 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Илья Лесных",
+    "label": "Head of Backend Development",
+    "image": "http://lesnykh.ru/assets/avatar.jpg",
+    "email": "lesnykh.ilja@gmail.com",
+    "phone": "+7 921 976 6006",
+    "url": "http://lesnykh.ru/",
+    "summary": "Backend-разработчик с 2008 года. Сейчас руковожу backend в Waxbill. PHP и Go, Symfony, PostgreSQL и Redis. Прошёл highload-соцсети и рекламную сеть, теперь строю ERP для инвестиционного холдинга. Руковожу командой и пишу код сам.",
+    "location": {
+      "city": "Белград",
+      "countryCode": "RS"
+    },
+    "profiles": [
+      {
+        "network": "Telegram",
+        "username": "@iLesnykh",
+        "url": "https://t.me/iLesnykh"
+      },
+      {
+        "network": "WhatsApp",
+        "username": "+7 921 976 6006",
+        "url": "https://wa.me/79219766006"
+      },
+      {
+        "network": "GitHub",
+        "username": "github.com/Aliance",
+        "url": "https://github.com/Aliance"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Waxbill Technologies",
+      "url": "https://waxbilltechnologies.com/",
+      "position": "Руководитель backend-разработки",
+      "startDate": "2025-11",
+      "summary": "ERP-система для инвестиционного холдинга DST Global. Архитектура, команда, код.",
+      "highlights": [
+        "Стек: php 8.4, symfony 7.4, mysql, sphinx, redis, elasticsearch, docker"
+      ]
+    },
+    {
+      "name": "PropellerAds",
+      "url": "https://propellerads.com/",
+      "position": "Ведущий веб-разработчик",
+      "startDate": "2016-08",
+      "endDate": "2025-10",
+      "summary": "Рекламная сеть. Девять лет над SSP-платформой: от PHP-монолита до сервисов на Go. Scrum.",
+      "highlights": [
+        "Стек: go, php 8.3, symfony 6.4, postgresql, redis, docker, teamcity, capistrano"
+      ]
+    },
+    {
+      "name": "Topface",
+      "url": "http://team.topface.ru/",
+      "position": "Ведущий веб-разработчик",
+      "startDate": "2014-04",
+      "endDate": "2016-08",
+      "summary": "Highload-соцсеть. Монетизация: A/B-эксперименты, реферальная программа, когортный анализ. Два внутренних хакатона.",
+      "highlights": [
+        "Стек: php 7, redis, zookeeper, elasticsearch, mysql, postgresql, docker"
+      ]
+    },
+    {
+      "name": "ТолькоТолк",
+      "url": "http://tolkotolk.ru/",
+      "position": "Веб-разработчик, удалённо",
+      "startDate": "2014-01",
+      "endDate": "2014-04",
+      "summary": "Управление рекламой во ВКонтакте, интерфейс создания объявлений.",
+      "highlights": [
+        "Стек: zend framework 1.9, mysql"
+      ]
+    },
+    {
+      "name": "ФотоСтрана",
+      "url": "http://fotostrana.ru/",
+      "position": "Ведущий веб-разработчик",
+      "startDate": "2012-10",
+      "endDate": "2013-10",
+      "summary": "Highload-соцсеть. Ядро и реклама: фотоальбомы, «борды и пины», рекламное API.",
+      "highlights": [
+        "Стек: zend framework 1, mysql, svn"
+      ]
+    },
+    {
+      "name": "Наш район → Вэбком",
+      "position": "Веб-разработчик → ведущий",
+      "startDate": "2010-11",
+      "endDate": "2012-10",
+      "summary": "SMS-биллинг: контент-сайты и агрегатор статистики. Повышен до ведущего, 2 человека в команде. Scrum.",
+      "highlights": [
+        "Стек: zend framework 1, kohana 3, mysql, git"
+      ]
+    },
+    {
+      "name": "WebDoka",
+      "url": "http://webdoka.ru/",
+      "position": "Веб-разработчик",
+      "startDate": "2010-01",
+      "endDate": "2010-09",
+      "summary": "Веб-студия: сайты с нуля, поддержка клиентов, ТЗ. ZFConf 2010.",
+      "highlights": [
+        "Стек: zend framework 1, umi.cms, 1c-bitrix"
+      ]
+    },
+    {
+      "name": "BeCost",
+      "url": "http://becost.ru/",
+      "position": "Старший веб-разработчик",
+      "startDate": "2008-12",
+      "endDate": "2010-01",
+      "summary": "Интернет-магазин автозапчастей, логистическая система (основа диплома), HelpDesk, собеседования. 4 человека в команде.",
+      "highlights": [
+        "Стек: zend framework 1, mysql, gentoo, seo"
+      ]
+    },
+    {
+      "name": "СОЛВО",
+      "url": "http://solvo.ru/",
+      "position": "Junior-программист W2A",
+      "startDate": "2008-04",
+      "endDate": "2008-08",
+      "summary": "Складские системы: XML-интерфейсы, представления для Oracle.",
+      "highlights": [
+        "Стек: oracle, rhel, cvs"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "НИУ ИТМО",
+      "url": "https://itmo.ru/",
+      "area": "факультет итип",
+      "studyType": "магистратура",
+      "startDate": "2010",
+      "endDate": "2012"
+    },
+    {
+      "institution": "НИУ ИТМО",
+      "url": "https://itmo.ru/",
+      "area": "факультет итип",
+      "studyType": "бакалавриат",
+      "startDate": "2006",
+      "endDate": "2010"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "oDesk tests",
+      "issuer": "oDesk",
+      "url": "https://www.odesk.com/o/profiles/users/_~010332bfadc18652eb/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "lang · fw",
+      "keywords": [
+        "php 8.4",
+        "symfony 7.4",
+        "go",
+        "javascript",
+        "sql"
+      ]
+    },
+    {
+      "name": "data",
+      "keywords": [
+        "postgresql",
+        "mysql",
+        "redis",
+        "elasticsearch",
+        "sphinx",
+        "zookeeper"
+      ]
+    },
+    {
+      "name": "infra",
+      "keywords": [
+        "docker",
+        "teamcity",
+        "capistrano",
+        "grafana",
+        "kibana",
+        "git"
+      ]
+    },
+    {
+      "name": "team",
+      "keywords": [
+        "руководство",
+        "scrum",
+        "a/b-тесты",
+        "собеседования"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "http://lesnykh.ru/resume.ru.json",
+    "lastModified": "2026-11-04",
+    "language": "ru"
+  }
+}

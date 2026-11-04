@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="author" content="{{ name }}">
+    <meta name="theme-color" content="#f5f6fa">
+    <link rel="canonical" href="{{ page_url }}">
+    <link rel="alternate" hreflang="ru" href="{{ url_ru }}">
+    <link rel="alternate" hreflang="en" href="{{ url_en }}">
+    <link rel="alternate" hreflang="x-default" href="{{ url_ru }}">
+    <link rel="alternate" type="application/json" href="{{ rel }}{{ resume_json }}" title="JSON Resume">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="lesnykh.ru">
+    <meta property="og:title" content="{{ og_title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:image" content="{{ og_image_url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="{{ ui.locale }}">
+    <meta property="og:locale:alternate" content="{{ alt_locale }}">
+    <meta property="profile:first_name" content="{{ first_name }}">
+    <meta property="profile:last_name" content="{{ last_name }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ og_title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ og_image_url }}">
+    <link rel="icon" href="{{ rel }}favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="{{ rel }}favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ rel }}styles.css">
+    <script type="application/ld+json">{{ jsonld|raw }}</script>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+
+<svg aria-hidden="true" style="display:none">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m2 7 10 7 10-7"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.7a2 2 0 0 1 1.9 2z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5a5.2 5.2 0 0 0-1.5-3.5 4.8 4.8 0 0 0-.1-3.5s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.3 1.7 5.2 2 5.2 2a4.8 4.8 0 0 0-.1 3.5A5.2 5.2 0 0 0 3.6 9c0 3.5 3 5.5 6 5.5a4.8 4.8 0 0 0-1 3.5v4"/><path d="M9 18c-4.5 2-5-2-7-2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6"/><path d="M22 11h-6"/></symbol>
+</svg>
+
+<div class="wrap">
+
+    <header class="nav">
+        <a class="brand" href="#top"><span class="tilde">~</span>/lesnykh.ru</a>
+        <nav class="nav-links" aria-label="{{ ui.sections }}">
+            <a href="#experience">./experience</a>
+            <a href="#skills">./skills</a>
+            <a href="#education">./education</a>
+            <a href="#contacts">./contacts</a>
+        </nav>
+        <div class="nav-tools">
+            <div class="lang" aria-label="{{ ui.language }}">{% if is_ru %}<span class="on">ru</span><a href="{{ switch_href }}" hreflang="en" lang="en">en</a>{% else %}<a href="{{ switch_href }}" hreflang="ru" lang="ru">ru</a><span class="on">en</span>{% endif %}</div>
+            <a class="pdf-link" href="{{ rel }}{{ pdf }}" download><svg class="icon"><use href="#i-download"/></svg>resume.pdf</a>
+        </div>
+    </header>
+
+    <div class="layout">
+
+        <aside class="side">
+            <section class="card profile">
+                <div class="avatar-wrap">
+                    <span class="halo" aria-hidden="true"></span>
+                    <span class="ring"><img src="{{ rel }}{{ avatar }}" alt="{{ name }}" width="640" height="640"></span>
+{% for f in floats %}                    <span class="float f{{ loop.index }}" aria-hidden="true">{{ f }}</span>
+{% endfor %}                </div>
+                <div class="who">
+                    <h1>{{ name }}</h1>
+                    <p class="role">{{ role }}<br>{{ company_lc }} · {{ city_lc }}</p>
+                </div>
+                <p class="status">{{ status }}</p>
+                <div class="contacts" id="contacts">
+{% for c in contacts %}                    <a class="ct" href="{{ c.href }}"><span class="ic"><svg class="icon"><use href="#i-{{ c.icon }}"/></svg></span><span><small>{{ c.label }}</small><b>{{ c.text }}</b></span></a>
+{% endfor %}                </div>
+                <div class="actions">
+                    <a class="btn" href="{{ rel }}{{ pdf }}" download><svg class="icon"><use href="#i-download"/></svg>PDF</a>
+                    <a class="btn-light" href="{{ rel }}{{ vcard }}" download><svg class="icon"><use href="#i-user"/></svg>vCard</a>
+                </div>
+            </section>
+
+            <section class="skills" id="skills" aria-labelledby="skills-title">
+                <h2 class="cmd" id="skills-title">./skills</h2>
+{% for g in skills %}                <div class="glass"><span class="label">{{ g.label }}</span><ul class="chips">{% for c in g.chips %}<li class="chip{% if c.tone %} {{ c.tone }}{% endif %}">{{ c.name }}</li>{% endfor %}</ul></div>
+{% endfor %}            </section>
+
+            <section class="card edu-card" id="education" aria-labelledby="edu-title">
+                <h2 class="cmd" id="edu-title">./education</h2>
+                <ul class="edu-list">
+{% for e in edu_items %}                    <li class="edu"><b>{{ e.name }}</b><span class="label">{{ e.label }}</span></li>
+{% endfor %}                </ul>
+            </section>
+        </aside>
+
+        <main class="main">
+            <section class="about">
+                <p class="cmd">whoami</p>
+                <h2 class="statement">{{ statement }} <span class="accent">{{ statement_accent }}</span></h2>
+                <p class="lead">{{ summary }}</p>
+            </section>
+
+            <ul class="stats">
+{% for s in stats %}                <li class="card stat{% if s.hot %} hot{% endif %}"><b{% if s.small %} class="sm"{% endif %}>{{ s.big }}</b><span>{{ s.text }}</span><span class="label">{{ s.label }}</span></li>
+{% endfor %}            </ul>
+
+            <section class="xp" id="experience" aria-labelledby="xp-title">
+                <div class="section-head">
+                    <div>
+                        <p class="cmd">./experience --all</p>
+                        <h2 id="xp-title">{{ ui.experience }}</h2>
+                    </div>
+                    <span class="label">{{ first_year }} — now · {{ jobs_count }} {{ ui.entries }}</span>
+                </div>
+{% for job in jobs %}
+                <article class="entry{% if job.current %} now{% endif %}">
+                    <time class="when" datetime="{{ job.start }}">{{ job.period|raw }}</time>
+                    <span class="rail" aria-hidden="true"></span>
+                    <div class="card item">
+                        <h3>{{ job.company }} <span>{{ job.position }}</span></h3>
+                        <p>{{ job.summary }}</p>
+                        <ul class="chips">{% for c in job.stack %}<li class="chip{% if c.tone %} {{ c.tone }}{% endif %}">{{ c.name }}</li>{% endfor %}</ul>
+                    </div>
+                </article>
+{% endfor %}            </section>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <span class="label">{{ since }} — <span id="year">{{ year }}</span> © {{ name }}</span>
+        <span class="label tech">{{ ui.tech }}</span>
+        <span class="label site">{{ site_label }}</span>
+    </footer>
+
+</div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter{{ metrika }} = new Ya.Metrika({id:{{ metrika }}, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/{{ metrika }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+</html>
